@@ -4,91 +4,44 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div>
+        <img src="/uibmlogo.png" width={400} alt="UIBM Logo" />
       </div>
 
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <div className={styles.item}>
+          <h2 className={styles.title}>Front Ends</h2>
+          <ul>
+            <li><a href="http://ecs-uibm-fe-load-balancer-1325116318.eu-central-1.elb.amazonaws.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">New Deposito</a></li>
+            <li><a href="http://ecs-uibm-bo-fe-alb-1499102185.eu-central-1.elb.amazonaws.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">XSARA</a></li>
+            <li><a href="http://ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">Workflow Manager</a></li>
+          </ul>
+        </div>
+        <div className={styles.item}>
+          <h2 className={styles.title}>APIs</h2>
+          <ul>
+            <li><a href="http://ecs-uibm-api-load-balancer-1136427516.eu-central-1.elb.amazonaws.com/">Common API</a></li>
+            <li><a href="http://ecs-uibm-digidapi-loadbalancer-15080021.eu-central-1.elb.amazonaws.com/">Digital Identity API</a></li>
+            <li><a href="http://ecs-uibm-bff-load-balancer-144272593.eu-central-1.elb.amazonaws.com/">Backend For Frontends API</a></li>
+          </ul>
+        </div>
+        <div className={styles.item}>
+          <h2 className={styles.title}>FIGMAs</h2>
+          <ul>
+            <li><a href="https://www.figma.com/proto/oAhCO0JsyBDT1Rpqyh6IFu/DEV-Protos-show-v7-on-draft-team-vv2?page-id=2015%3A312660&node-id=8002-198518&t=pKUos7TMInhAezID-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=8002%3A198518&show-proto-sidebar=1">Parti Comuni</a></li>
+            <li><a href="https://www.figma.com/proto/oAhCO0JsyBDT1Rpqyh6IFu/DEV-Protos-show-v7-on-draft-team-vv2?page-id=6001%3A344249&node-id=6001-344252&t=DEQjnAVfVCt5jM4n-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6001%3A344250&show-proto-sidebar=1">Parti Specifiche</a></li>
+            <li><a href="https://www.figma.com/proto/oAhCO0JsyBDT1Rpqyh6IFu/DEV-Protos-show-v7-on-draft-team-vv2?page-id=6001%3A209006&node-id=6001-209981&t=DEQjnAVfVCt5jM4n-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6001%3A209981&show-proto-sidebar=1">Marchi d&apos;Impresa</a></li>
+            <li><a href="https://www.figma.com/proto/oAhCO0JsyBDT1Rpqyh6IFu/DEV-Protos-show-v7-on-draft-team-vv2?page-id=4152%3A187029&node-id=6001-197659&t=DEQjnAVfVCt5jM4n-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6001%3A198586&show-proto-sidebar=1">Brevetti</a></li>
+            <li><a href="https://www.figma.com/proto/oAhCO0JsyBDT1Rpqyh6IFu/DEV-Protos-show-v7-on-draft-team-vv2?page-id=6001%3A422803&node-id=6001-422806&t=DEQjnAVfVCt5jM4n-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=6001%3A422804">Dati Identificativi</a></li>
+          </ul>
+        </div>
       </div>
     </main>
   );

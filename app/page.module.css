@@ -27,6 +27,7 @@
 
 .description p {
   position: relative;
+  color: #acc2f3;
   margin: 0;
   padding: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
@@ -44,6 +45,15 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   max-width: 100%;
   width: var(--max-width);
+}
+
+.item {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+  color: #1871a3;
 }
 
 .card {
