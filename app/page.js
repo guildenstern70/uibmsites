@@ -13,21 +13,16 @@ export default function Home() {
         <div className={styles.item}>
           <h2 className={styles.title}>Front Ends</h2>
           <ul>
-            <li><a href="http://ecs-uibm-fe-load-balancer-1325116318.eu-central-1.elb.amazonaws.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">New Deposito</a></li>
-            <li><a href="http://ecs-uibm-bo-fe-alb-1499102185.eu-central-1.elb.amazonaws.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">XSARA</a></li>
-            <li><a href="http://ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">Workflow Manager</a></li>
+            <li><a href="http://ecs-uibm-fe-load-balancer-1325116318.eu-central-1.elb.amazonaws.com/">New Deposito</a></li>
+            <li><a href="http://ecs-uibm-bo-fe-alb-1499102185.eu-central-1.elb.amazonaws.com/">XSARA</a></li>
+            <li><a href="http://ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com/">Workflow Manager</a></li>
           </ul>
         </div>
         <div className={styles.item}>
           <h2 className={styles.title}>APIs</h2>
           <ul>
             <li><a href="http://ecs-uibm-api-load-balancer-1136427516.eu-central-1.elb.amazonaws.com/">Common API</a></li>
+            <li><a href="http://ecs-uibm-class-api-alb-287839511.eu-central-1.elb.amazonaws.com/">Classification API</a></li>
             <li><a href="http://ecs-uibm-digidapi-loadbalancer-15080021.eu-central-1.elb.amazonaws.com/">Digital Identity API</a></li>
             <li><a href="http://ecs-uibm-bff-load-balancer-144272593.eu-central-1.elb.amazonaws.com/">Backend For Frontends API</a></li>
           </ul>
