@@ -10,8 +10,6 @@
 
 'use client';
 
-import {useEffect} from "react";
-
 export default function AppMonitor({ name, xurl }) {
 
     const appUrl = 'http://' + xurl;
