@@ -14,8 +14,8 @@ import {useEffect, useState} from "react";
 
 export default function RestMonitor({ name, xurl, api }) {
 
-    const appUrl = 'http://' + xurl;
-    const apiUrl = 'http://' + xurl + '/api/' + api;
+    const appUrl = 'https://' + xurl;
+    const apiUrl = 'https://' + xurl + '/api/' + api;
     const [aliveCss, setAliveCss] =  useState('isdown');
 
     useEffect(() => {
