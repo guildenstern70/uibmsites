@@ -16,7 +16,6 @@ export default function RestMonitor({ name, xurl, api }) {
 
     const appUrl = 'http://' + xurl;
     const apiUrl = 'http://' + xurl + '/api/' + api;
-    const [alive, setAlive] = useState('[down]');
     const [aliveCss, setAliveCss] =  useState('isdown');
 
     useEffect(() => {
@@ -28,15 +27,15 @@ export default function RestMonitor({ name, xurl, api }) {
                 console.log(name + " = " + JSON.stringify(data));
                 if (data.alive) {
                     console.log("Site is alive");
-                    setAlive('[up]');
                     setAliveCss('isup');
                 }
             })
             .catch(error => console.error('Error:', error));
     });
 
-    return <div>
-        <a href={appUrl}>{name}</a>&nbsp;<small className={aliveCss}>&bull;</small>
-    </div>;
+    return <>
+        <a href={appUrl}>{name}</a>&nbsp;
+        <small className={aliveCss}>&bull;</small>
+    </>;
 
 }

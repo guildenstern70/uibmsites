@@ -38,19 +38,19 @@ export default function Home()
                 <div className={styles.item}>
                     <h2 className={styles.title}>APIs</h2>
                     <ul>
-                        <li><RestMonitor name={'Common API'}
+                        <li><AppMonitor name={'Common API'}
                                         xurl={'ecs-uibm-api-load-balancer-1136427516.eu-central-1.elb.amazonaws.com'}
                                         api={'alive'} />
                         </li>
-                        <li><RestMonitor name={'Digital Identity API'}
+                        <li><AppMonitor name={'Digital Identity API'}
                                         xurl={'ecs-uibm-digidapi-loadbalancer-15080021.eu-central-1.elb.amazonaws.com'}
                                         api={'alive'} />
                         </li>
-                        <li><RestMonitor name={'Classification API'}
+                        <li><AppMonitor name={'Classification API'}
                                         xurl={'ecs-uibm-class-api-alb-287839511.eu-central-1.elb.amazonaws.com'}
                                         api={'alive'} />
                         </li>
-                        <li><RestMonitor name={'Backend For Frontends API'}
+                        <li><AppMonitor name={'Backend For Frontends API'}
                                         xurl={'ecs-uibm-bff-load-balancer-144272593.eu-central-1.elb.amazonaws.com'}
                                          api={'alive'} />
                         </li>
