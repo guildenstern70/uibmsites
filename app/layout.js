@@ -1,6 +1,15 @@
+/*
+ * MiMIT UIBM CheatSheet
+ *
+ * Copyright (C) 2024 IBM Consulting Italy - All Rights Reserved
+ * This is copyrighted software
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential by IBM Consulting
+ *
+ */
+
 import { Crimson_Text } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 
 const inter = Crimson_Text({
   subsets: ["latin"],

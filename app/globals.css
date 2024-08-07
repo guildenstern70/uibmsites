@@ -100,6 +100,14 @@ a {
   text-decoration: none;
 }
 
+.isup {
+  color: #00ff00;
+}
+
+.isdown {
+  color: #ff0000;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
