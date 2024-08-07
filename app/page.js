@@ -10,6 +10,7 @@
 
 import styles from "./page.module.css";
 import AppMonitor from "@/app/appmonitor";
+import RestMonitor from "@/app/restmonitor";
 
 export default function Home()
 {
@@ -37,16 +38,21 @@ export default function Home()
                 <div className={styles.item}>
                     <h2 className={styles.title}>APIs</h2>
                     <ul>
-                        <li><AppMonitor name={'Common API'}
-                                        xurl={'ecs-uibm-api-load-balancer-1136427516.eu-central-1.elb.amazonaws.com'}/>
+                        <li><RestMonitor name={'Common API'}
+                                        xurl={'ecs-uibm-api-load-balancer-1136427516.eu-central-1.elb.amazonaws.com'}
+                                        api={'alive'} />
                         </li>
-                        <li><AppMonitor name={'Digital Identity API'}
-                                        xurl={'ecs-uibm-digidapi-loadbalancer-15080021.eu-central-1.elb.amazonaws.com'}/>
+                        <li><RestMonitor name={'Digital Identity API'}
+                                        xurl={'ecs-uibm-digidapi-loadbalancer-15080021.eu-central-1.elb.amazonaws.com'}
+                                        api={'alive'} />
                         </li>
-                        <li><AppMonitor name={'Classification API'}
-                                        xurl={'ecs-uibm-class-api-alb-287839511.eu-central-1.elb.amazonaws.com'}/></li>
-                        <li><AppMonitor name={'Backend For Frontends API'}
-                                        xurl={'ecs-uibm-bff-load-balancer-144272593.eu-central-1.elb.amazonaws.com'}/>
+                        <li><RestMonitor name={'Classification API'}
+                                        xurl={'ecs-uibm-class-api-alb-287839511.eu-central-1.elb.amazonaws.com'}
+                                        api={'alive'} />
+                        </li>
+                        <li><RestMonitor name={'Backend For Frontends API'}
+                                        xurl={'ecs-uibm-bff-load-balancer-144272593.eu-central-1.elb.amazonaws.com'}
+                                         api={'alive'} />
                         </li>
                     </ul>
                 </div>
