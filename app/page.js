@@ -42,8 +42,8 @@ export default function Home()
                                         xurl={'uibm-common-api-dev.net'}
                                         api={'alive'} />
                         </li>
-                        <li><AppMonitor name={'Digital Identity API'}
-                                        xurl={'ecs-uibm-digidapi-loadbalancer-15080021.eu-central-1.elb.amazonaws.com'}
+                        <li><RestMonitor name={'Digital Identity API'}
+                                        xurl={'uibm-digitalid-api-dev.net'}
                                         api={'alive'} />
                         </li>
                         <li><AppMonitor name={'Classification API'}
