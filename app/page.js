@@ -50,8 +50,8 @@ export default function Home()
                                         xurl={'ecs-uibm-class-api-alb-287839511.eu-central-1.elb.amazonaws.com'}
                                         api={'alive'} />
                         </li>
-                        <li><AppMonitor name={'Backend For Frontends API'}
-                                        xurl={'ecs-uibm-bff-load-balancer-144272593.eu-central-1.elb.amazonaws.com'}
+                        <li><RestMonitor name={'Backend For Frontends API'}
+                                        xurl={'bff.uibm-services-dev.net'}
                                          api={'alive'} />
                         </li>
                     </ul>
