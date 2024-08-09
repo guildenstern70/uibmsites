@@ -26,7 +26,7 @@ export default function Home()
                     <h2 className={styles.title}>Front Ends</h2>
                     <ul>
                         <li><AppMonitor name={'New Deposito'}
-                                        xurl={'ecs-uibm-fe-load-balancer-1325116318.eu-central-1.elb.amazonaws.com'}/>
+                                         xurl={'dep.uibm-fe-dev.net'} />
                         </li>
                         <li><AppMonitor name={'XSARA'}
                                         xurl={'ecs-uibm-bo-fe-alb-1788755408.eu-central-1.elb.amazonaws.com'}/></li>
