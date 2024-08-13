@@ -22,6 +22,7 @@ export default function Home()
             </div>
 
             <div className={styles.grid}>
+                <div className={styles.item}>&nbsp;</div>
                 <div className={styles.item}>
                     <h2 className={styles.title}>Front Ends</h2>
                     <ul>
@@ -78,6 +79,7 @@ export default function Home()
                     </ul>
                 </div>
             </div>
+
         </main>
     );
 }

@@ -37,7 +37,7 @@
 
 .code {
   font-weight: 700;
-  font-family: var(--font-mono);
+  font-family: var(--font-mono), serif;
 }
 
 .grid {
