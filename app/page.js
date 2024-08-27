@@ -30,8 +30,9 @@ export default function Home()
                                          xurl={'dep.uibm-fe-dev.net'}
                                          api={'alive'} />
                         </li>
-                        <li><AppMonitor name={'XSARA'}
-                                        xurl={'ecs-uibm-bo-fe-alb-1788755408.eu-central-1.elb.amazonaws.com'}/></li>
+                        <li><RestMonitor name={'Back Office (XSARA)'}
+                                         xurl={'bo.uibm-fe-dev.net'}
+                                         api={'alive'} /></li>
                         <li><AppMonitor name={'Workflow Manager'}
                                         xurl={'ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com'}/>
                         </li>

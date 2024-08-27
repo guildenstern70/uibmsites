@@ -24,9 +24,8 @@ export default function RestMonitor({ name, xurl, api }) {
                 (response) => response.json()
             )
             .then((data) => {
-                console.log(name + " = " + JSON.stringify(data));
                 if (data.alive) {
-                    console.log("Site is alive");
+                    console.log(name + " site is alive");
                     setAliveCss('isup');
                 }
             })
