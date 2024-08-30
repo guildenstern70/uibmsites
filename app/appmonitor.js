@@ -12,7 +12,7 @@
 
 export default function AppMonitor({ name, xurl }) {
 
-    let appUrl = 'http://' + xurl;
+    let appUrl = xurl;
     let xclass = 'xxx';
     if (xurl.length === 0) {
         appUrl = '#';
@@ -20,7 +20,7 @@ export default function AppMonitor({ name, xurl }) {
     }
 
     return <>
-        <a className={xclass} href={appUrl}>{name}</a>
+        <a className={xclass} href={xurl}>{name}</a>
     </>;
 
 }

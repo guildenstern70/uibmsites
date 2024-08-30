@@ -34,7 +34,7 @@ export default function Home()
                                          api={'alive'}/>
                         </li>
                         <li><AppMonitor name={'Ricerca Dati e Statistiche (RDS)'}
-                                        xurl={''}/>
+                                        xurl={'https://bd.uibm-fe-dev.net/'}/>
                         </li>
                         <li><AppMonitor name={'Dashboard'}
                                         xurl={''}/>
@@ -61,7 +61,7 @@ export default function Home()
                                          api={'alive'}/>
                         </li>
                         <li><AppMonitor name={'Workflow Manager'}
-                                        xurl={'ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com'}/>
+                                        xurl={'http://ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com'}/>
                         </li>
                     </ul>
                 </div>
