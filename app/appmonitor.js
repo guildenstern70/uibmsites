@@ -12,9 +12,15 @@
 
 export default function AppMonitor({ name, xurl }) {
 
-    const appUrl = 'http://' + xurl;
-    return <div>
-        <a href={appUrl}>{name}</a>
-    </div>;
+    let appUrl = 'http://' + xurl;
+    let xclass = 'xxx';
+    if (xurl.length === 0) {
+        appUrl = '#';
+        xclass = 'disabled';
+    }
+
+    return <>
+        <a className={xclass} href={appUrl}>{name}</a>
+    </>;
 
 }

@@ -22,40 +22,46 @@ export default function Home()
             </div>
 
             <div className={styles.grid}>
-                <div className={styles.item}>&nbsp;</div>
                 <div className={styles.item}>
                     <h2 className={styles.title}>Front Ends</h2>
                     <ul>
-                        <li><RestMonitor name={'New Deposito'}
+                        <li><RestMonitor name={'Deposito'}
                                          xurl={'dep.uibm-fe-dev.net'}
-                                         api={'alive'} />
+                                         api={'alive'}/>
                         </li>
-                        <li><RestMonitor name={'Back Office (XSARA)'}
+                        <li><RestMonitor name={'Gestione Proprietà Intellettuale (GEPI)'}
                                          xurl={'bo.uibm-fe-dev.net'}
-                                         api={'alive'} /></li>
-                        <li><AppMonitor name={'Workflow Manager'}
-                                        xurl={'ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com'}/>
+                                         api={'alive'}/>
+                        </li>
+                        <li><AppMonitor name={'Ricerca Dati e Statistiche (RDS)'}
+                                        xurl={''}/>
+                        </li>
+                        <li><AppMonitor name={'Dashboard'}
+                                        xurl={''}/>
                         </li>
                     </ul>
                 </div>
                 <div className={styles.item}>
                     <h2 className={styles.title}>APIs</h2>
                     <ul>
-                        <li><RestMonitor name={'Common API'}
-                                        xurl={'uibm-common-api-dev.net'}
-                                        api={'alive'} />
+                    <li><RestMonitor name={'Common API'}
+                                         xurl={'uibm-common-api-dev.net'}
+                                         api={'alive'}/>
                         </li>
                         <li><RestMonitor name={'Digital Identity API'}
-                                        xurl={'uibm-digitalid-api-dev.net'}
-                                        api={'alive'} />
+                                         xurl={'uibm-digitalid-api-dev.net'}
+                                         api={'alive'}/>
                         </li>
                         <li><RestMonitor name={'Classification API'}
-                                        xurl={'class.uibm-services-dev.net'}
-                                        api={'alive'} />
+                                         xurl={'class.uibm-services-dev.net'}
+                                         api={'alive'}/>
                         </li>
                         <li><RestMonitor name={'Backend For Frontends API'}
-                                        xurl={'bff.uibm-services-dev.net'}
-                                         api={'alive'} />
+                                         xurl={'bff.uibm-services-dev.net'}
+                                         api={'alive'}/>
+                        </li>
+                        <li><AppMonitor name={'Workflow Manager'}
+                                        xurl={'ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com'}/>
                         </li>
                     </ul>
                 </div>
