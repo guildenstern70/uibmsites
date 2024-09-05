@@ -33,8 +33,9 @@ export default function Home()
                                          xurl={'bo.uibm-fe-dev.net'}
                                          api={'alive'}/>
                         </li>
-                        <li><AppMonitor name={'Ricerca Dati e Statistiche (RDS)'}
-                                        xurl={'https://bd.uibm-fe-dev.net/'}/>
+                        <li><RestMonitor name={'Ricerca Dati e Statistiche (RDS)'}
+                                         xurl={'https://bd.uibm-fe-dev.net/'}
+                                         api={'alive'}/>
                         </li>
                         <li><AppMonitor name={'Dashboard'}
                                         xurl={''}/>
