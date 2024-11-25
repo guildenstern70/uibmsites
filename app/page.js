@@ -23,7 +23,7 @@ export default function Home()
 
             <div className={styles.grid}>
                 <div className={styles.item}>
-                    <h2 className={styles.title}>Front Ends</h2>
+                    <h2 className={styles.title}>Front End</h2>
                     <ul>
                         <li><RestMonitor name={'Deposito'}
                                          xurl={'dep.uibm-fe-dev.net'}
@@ -41,11 +41,15 @@ export default function Home()
                                         xurl={''}/>
                         </li>
                     </ul>
+                    <h2 className={[styles.title, styles.secondList].join(" ")}>Test</h2>
+                    <ul>
+                        <li><a href="https://github.com/guildenstern70/uibm-test/issues">Issue Management</a></li>
+                    </ul>
                 </div>
                 <div className={styles.item}>
-                    <h2 className={styles.title}>APIs</h2>
+                    <h2 className={styles.title}>API</h2>
                     <ul>
-                    <li><RestMonitor name={'Common API'}
+                        <li><RestMonitor name={'Common API'}
                                          xurl={'uibm-common-api-dev.net'}
                                          api={'alive'}/>
                         </li>
@@ -67,13 +71,14 @@ export default function Home()
                     </ul>
                 </div>
                 <div className={styles.item}>
-                    <h2 className={styles.title}>FIGMAs</h2>
+                    <h2 className={styles.title}>FIGMA</h2>
                     <ul>
                         <li><a
                             href="https://www.figma.com/design/BkWe7ggTQoJkan3V569mMh/DEV-Protos-show-v7-on-draft-team-vv2.2">
                             Consegna Settembre #1</a></li>
                         <li><a
-                            href="https://www.figma.com/design/qcFMkpUGElm13Hi3RKfEaj/DEV-Protos-show-v8 ">Consegna Settembre #2</a></li>
+                            href="https://www.figma.com/design/qcFMkpUGElm13Hi3RKfEaj/DEV-Protos-show-v8 ">Consegna
+                            Settembre #2</a></li>
                         <li>Oldies:
                             <ul className={styles.nestedList}>
                                 <li><a
