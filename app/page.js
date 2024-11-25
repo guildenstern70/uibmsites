@@ -71,7 +71,7 @@ export default function Home()
                     </ul>
                 </div>
                 <div className={styles.item}>
-                    <h2 className={styles.title}>FIGMA</h2>
+                    <h2 className={styles.title}>Wireframe</h2>
                     <ul>
                         <li><a
                             href="https://www.figma.com/design/BkWe7ggTQoJkan3V569mMh/DEV-Protos-show-v7-on-draft-team-vv2.2"
