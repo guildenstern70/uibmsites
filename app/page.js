@@ -81,6 +81,9 @@ export default function Home()
                             href="https://www.figma.com/design/qcFMkpUGElm13Hi3RKfEaj/DEV-Protos-show-v8 "
                             target="_blank">
                             Deposito - Settembre #2</a></li>
+                        <li><a href="https://www.figma.com/design/GrN0dEz9DFC9vorMHNnoFz/DEV9-Deposito?node-id=0-1&t=endQPDSpNb84zGth-0"
+                               target="_blank">
+                            Nuovi UC (210 et al.)</a></li>
                         <li>
                             <a href="https://www.figma.com/proto/eMTjsOAf7chM0l0Fto8zAo/DEV2.2-Gepi?page-id=0%3A1&node-id=1-12917&node-type=canvas&t=7pTkoFxWGuExqI8d-0&scaling=min-zoom&content-scaling=fixed"
                                target="_blank">GEPI - Novembre #1</a>
