@@ -40,6 +40,9 @@ export default function Home()
                         <li><AppMonitor name={'Dashboard'}
                                         xurl={''}/>
                         </li>
+                        <li><AppMonitor name={'Workflow Designer'}
+                                         xurl={'http://ecs-uibm-wf-designer-alb-1860146931.eu-central-1.elb.amazonaws.com'}/>
+                        </li>
                     </ul>
                     <h2 className={[styles.title, styles.secondList].join(" ")}>Test</h2>
                     <ul>
