@@ -18,7 +18,7 @@ const inter = Crimson_Text({
 
 export const metadata = {
   title: "UIBM CheatSheet",
-  description: "The single page you need to remember all the UIBM components",
+  description: "A collection of useful resources for UIBM developers.",
   robots: "noindex, nofollow",
 };
 
