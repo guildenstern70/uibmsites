@@ -10,7 +10,7 @@ export default function AppMonitor({ name, xurl }) {
 
     let appUrl = xurl;
     let xclass = 'xxx';
-    if (xurl.length === 0) {
+    if (xurl === undefined || xurl.length === 0) {
         appUrl = '#';
         xclass = 'disabled';
     }

@@ -21,19 +21,19 @@ export default function Home()
                     <h2 className={styles.title}>Front End</h2>
                     <ul>
                         <li><RestMonitor name={'Deposito'}
-                                         xurl={'uibm-fe-dev.net'}
-                                         api={'alive'}/>
+                                         appUrl={'https://uibm-fe-dev.net'}
+                                         apiUrl={'https://uibm-fe-dev.net/api/alive'}/>
                         </li>
                         <li><RestMonitor name={'Gestione Proprietà Intellettuale (GEPI)'}
-                                         xurl={'bo.uibm-fe-dev.net'}
-                                         api={'alive'}/>
+                                         appUrl={'https://bo.uibm-fe-dev.net'}
+                                         apiUrl={'https://bo.uibm-fe-dev.net/api/alive'}/>
                         </li>
                         <li><RestMonitor name={'Ricerca Dati e Statistiche (RDS)'}
-                                         xurl={'bd.uibm-fe-dev.net'}
-                                         api={'alive'}/>
+                                         appUrl={'https://uibm-fe-dev.net/rds'}
+                                         apiUrl={'https://uibm-fe-dev.net/api/alive'}/>
                         </li>
                         <li><AppMonitor name={'Dashboard'}
-                                        xurl={''}/>
+                                        apiUrl={''}/>
                         </li>
                         <li><AppMonitor name={'Workflow Designer'}
                                          xurl={'http://ecs-uibm-wf-designer-alb-1860146931.eu-central-1.elb.amazonaws.com'}/>
@@ -48,20 +48,20 @@ export default function Home()
                     <h2 className={styles.title}>APIs</h2>
                     <ul>
                     <li><RestMonitor name={'Common API'}
-                                         xurl={'uibm-common-api-dev.net'}
-                                         api={'alive'}/>
+                                     appUrl={'https://uibm-common-api-dev.net'}
+                                     apiUrl={'https://uibm-common-api-dev.net/api/alive'}/>
                         </li>
                         <li><RestMonitor name={'Digital Identity API'}
-                                         xurl={'uibm-digitalid-api-dev.net'}
-                                         api={'alive'}/>
+                                         appUrl={'https://uibm-digitalid-api-dev.net'}
+                                         apiUrl={'https://uibm-digitalid-api-dev.net/api/alive'}/>
                         </li>
                         <li><RestMonitor name={'Classification API'}
-                                         xurl={'class.uibm-services-dev.net'}
-                                         api={'alive'}/>
+                                         appUrl={'https://class.uibm-services-dev.net'}
+                                         apiUrl={'https://class.uibm-services-dev.net/api/alive'}/>
                         </li>
                         <li><RestMonitor name={'Backend For Frontends API'}
-                                         xurl={'bff.uibm-services-dev.net'}
-                                         api={'alive'}/>
+                                         appUrl={'https://bff.uibm-services-dev.net'}
+                                         apiUrl={'https://bff.uibm-services-dev.net/api/alive'}/>
                         </li>
                         <li><AppMonitor name={'Workflow Manager'}
                                         xurl={'http://ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com'}/>

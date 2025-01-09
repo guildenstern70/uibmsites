@@ -7,10 +7,8 @@
 
 import {useEffect, useState} from "react";
 
-export default function RestMonitor({ name, xurl, api }) {
+export default function RestMonitor({ name, appUrl, apiUrl }) {
 
-    const appUrl = 'https://' + xurl;
-    const apiUrl = 'https://' + xurl + '/api/' + api;
     const [aliveCss, setAliveCss] =  useState('isdown');
 
     useEffect(() => {
