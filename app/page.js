@@ -26,7 +26,7 @@ export default function Home()
                     <h2 className={styles.title}>Front End</h2>
                     <ul>
                         <li><RestMonitor name={'Deposito'}
-                                         xurl={'dep.uibm-fe-dev.net'}
+                                         xurl={'uibm-fe-dev.net'}
                                          api={'alive'}/>
                         </li>
                         <li><RestMonitor name={'Gestione Proprietà Intellettuale (GEPI)'}
