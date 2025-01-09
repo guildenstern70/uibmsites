@@ -1,12 +1,7 @@
-/*
- * MiMIT UIBM CheatSheet
- *
- * Copyright (C) 2024 IBM Consulting Italy - All Rights Reserved
- * This is copyrighted software
- * Unauthorized copying of this file, via any medium is strictly prohibited
- * Proprietary and confidential by IBM Consulting
- *
- */
+//
+// Copyright (c) 2024-25 Alessio Saltarin. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for details.
+//
 
 import styles from "./page.module.css";
 import AppMonitor from "@/app/appmonitor";
