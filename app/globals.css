@@ -105,10 +105,16 @@ a {
 
 .isup {
   color: #00ff00;
+  padding-left: 5px;
 }
 
 .isdown {
   color: #ff0000;
+  padding-left: 5px;
+}
+
+li {
+  list-style-type: none;
 }
 
 

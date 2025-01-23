@@ -17,6 +17,7 @@ export default function AppMonitor({ name, xurl }) {
 
     return <>
         <a className={xclass} href={xurl}>{name}</a>
+        <small className={'isup'}>&bull;</small>
     </>;
 
 }
