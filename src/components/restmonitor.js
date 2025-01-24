@@ -31,3 +31,4 @@ export default function RestMonitor({ name, appUrl, apiUrl }) {
     </>;
 
 }
+

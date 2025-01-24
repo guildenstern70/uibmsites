@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+.wrapper {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    font: 300 30px/1 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    animation: 90s credits linear infinite;
+}
+
+.movie {
+    margin-bottom: 80px;
+    font-size: 50px;
+}
+
+.endline {
+    margin-top: 200px;
+    margin-bottom: 80px;
+    font-size: 25px;
+}
+
+.job {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.name {
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.collegue {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.collegues {
+    margin-bottom: 40px;
+}
+
+@keyframes credits {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -500%;
+    }
+}
