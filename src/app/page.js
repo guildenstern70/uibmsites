@@ -33,7 +33,7 @@ export default function Home()
                                apiUrl={'https://uibm-fe-dev.net/api/alive'}/>
               </li>
               <li><AppMonitor name={'Dashboard'}
-                              xurl={'https://search-uibm-opensearch-aws-qjabrponwmp45xbflcnf6rnt4e.aos.eu-central-1.on.aws/_dashboards/app/home#/'}/>
+                              xurl={'https://axsaxs-search-7628008329.apps.bonsaisearch.net/app/home#'}/>
               </li>
               <li><AppMonitor name={'Workflow Designer'}
                               xurl={'http://ecs-uibm-wf-designer-alb-1860146931.eu-central-1.elb.amazonaws.com'}/>
