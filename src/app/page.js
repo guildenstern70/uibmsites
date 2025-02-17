@@ -79,8 +79,8 @@ export default function Home()
                      target="_blank">
                 Nuovi UC (210 et al.)</a></li>
               <li>
-                <a href="https://www.figma.com/proto/eMTjsOAf7chM0l0Fto8zAo/DEV2.2-Gepi?page-id=0%3A1&node-id=1-12917&node-type=canvas&t=7pTkoFxWGuExqI8d-0&scaling=min-zoom&content-scaling=fixed"
-                   target="_blank">GEPI - Novembre #1</a>
+                <a href="https://www.figma.com/design/znuGDeGB78qN2b2Iizi7qA/DEV3.1-Gepi?node-id=127-137946&p=f"
+                   target="_blank">GEPI - New</a>
               </li>
             </ul>
           </div>
