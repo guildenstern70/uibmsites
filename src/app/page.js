@@ -20,17 +20,17 @@ export default function Home()
           <div className={styles.item}>
             <h2 className={styles.title}>Front End</h2>
             <ul>
-              <li><RestMonitor name={'Deposito'}
+              <li><RestMonitor name={'Deposito & RDS [DEV]'}
                                appUrl={'https://uibm-fe-dev.net'}
                                apiUrl={'https://uibm-fe-dev.net/api/alive'}/>
+              </li>
+              <li><RestMonitor name={'Deposito & RDS [TEST]'}
+                               appUrl={'https://uibm-fe-test.net/'}
+                               apiUrl={'https://uibm-fe-test.net/api/alive'}/>
               </li>
               <li><RestMonitor name={'Gestione Proprietà Intellettuale (GEPI)'}
                                appUrl={'https://bo.uibm-fe-dev.net'}
                                apiUrl={'https://bo.uibm-fe-dev.net/api/alive'}/>
-              </li>
-              <li><RestMonitor name={'Ricerca Dati e Statistiche (RDS)'}
-                               appUrl={'https://uibm-fe-dev.net/rds'}
-                               apiUrl={'https://uibm-fe-dev.net/api/alive'}/>
               </li>
               <li><AppMonitor name={'Dashboard'}
                               xurl={'https://axsaxs-search-7628008329.apps.bonsaisearch.net/app/home#'}/>
