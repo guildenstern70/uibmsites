@@ -43,9 +43,13 @@ export default function Home()
           <div className={styles.item}>
             <h2 className={styles.title}>APIs</h2>
             <ul>
-              <li><RestMonitor name={'Common API'}
+              <li><RestMonitor name={'Common API [DEV]'}
                                appUrl={'https://uibm-common-api-dev.net'}
                                apiUrl={'https://uibm-common-api-dev.net/api/alive'}/>
+              </li>
+              <li><RestMonitor name={'Common API [TEST]'}
+                               appUrl={'https://common.uibm-services-test.net/'}
+                               apiUrl={'https://common.uibm-services-test.net/api/alive'}/>
               </li>
               <li><RestMonitor name={'Digital Identity API [DEV]'}
                                appUrl={'https://uibm-digitalid-api-dev.net'}
