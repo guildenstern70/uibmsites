@@ -18,7 +18,7 @@ export default function Home()
 
         <div className={"columns"}>
             <div className={"column"}>
-            <h2>Front End</h2>
+            <h2 className={styles.title}>Front End</h2>
             <ul>
               <li><RestMonitor name={'Deposito & RDS [DEV]'}
                                appUrl={'https://uibm-fe-dev.net'}
@@ -41,7 +41,7 @@ export default function Home()
             </ul>
           </div>
             <div className={"column"}>
-            <h2>APIs</h2>
+            <h2 className={styles.title}>APIs</h2>
             <ul>
               <li><RestMonitor name={'Common API [DEV]'}
                                appUrl={'https://uibm-common-api-dev.net'}
@@ -77,7 +77,7 @@ export default function Home()
             </ul>
           </div>
             <div className={"column"}>
-            <h2>Wireframe</h2>
+            <h2 className={styles.title}>Wireframe</h2>
             <ul>
               <li><a
                   href="https://www.figma.com/design/BkWe7ggTQoJkan3V569mMh/DEV-Protos-show-v7-on-draft-team-vv2.2"
@@ -100,13 +100,13 @@ export default function Home()
 
         <div className={"columns"}>
           <div className={"column"}>
-            <h2>Test</h2>
+            <h2 className={styles.title}>Test</h2>
             <ul>
               <li><a href="https://github.com/guildenstern70/uibm-test/issues">Issue Management</a></li>
             </ul>
           </div>
           <div className={"column"}>
-            <h2>UIBM Team</h2>
+            <h2 className={styles.title}>UIBM Team</h2>
             <ul>
               <li><a href="/credits">Credits</a></li>
             </ul>
