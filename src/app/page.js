@@ -3,22 +3,21 @@
 // Licensed under the MIT license. See LICENSE file in the project root for details.
 //
 
-import styles from "./page.module.css";
 import AppMonitor from "@/components/appmonitor";
 import RestMonitor from "@/components/restmonitor";
 
 export default function Home()
 {
   return (
-      <main className={styles.main}>
+      <main>
 
         <div>
           <img src="/uibmlogo.png" width={400} alt="UIBM Logo"/>
         </div>
 
-        <div className={styles.grid}>
-          <div className={styles.item}>
-            <h2 className={styles.title}>Front End</h2>
+        <div>
+          <div>
+            <h2>Front End</h2>
             <ul>
               <li><RestMonitor name={'Deposito & RDS [DEV]'}
                                appUrl={'https://uibm-fe-dev.net'}
@@ -40,8 +39,8 @@ export default function Home()
               </li>
             </ul>
           </div>
-          <div className={styles.item}>
-            <h2 className={styles.title}>APIs</h2>
+          <div>
+            <h2>APIs</h2>
             <ul>
               <li><RestMonitor name={'Common API [DEV]'}
                                appUrl={'https://uibm-common-api-dev.net'}
@@ -76,8 +75,8 @@ export default function Home()
               </li>
             </ul>
           </div>
-          <div className={styles.item}>
-            <h2 className={styles.title}>Wireframe</h2>
+          <div>
+            <h2>Wireframe</h2>
             <ul>
               <li><a
                   href="https://www.figma.com/design/BkWe7ggTQoJkan3V569mMh/DEV-Protos-show-v7-on-draft-team-vv2.2"
@@ -96,14 +95,14 @@ export default function Home()
               </li>
             </ul>
           </div>
-          <div className={styles.item}>
-            <h2 className={[styles.title, styles.secondList].join(" ")}>Test</h2>
+          <div>
+            <h2>Test</h2>
             <ul>
               <li><a href="https://github.com/guildenstern70/uibm-test/issues">Issue Management</a></li>
             </ul>
           </div>
-          <div className={styles.item}>
-            <h2 className={[styles.title, styles.secondList].join(" ")}>UIBM Team</h2>
+          <div>
+            <h2>UIBM Team</h2>
             <ul>
               <li><a href="/credits">Credits</a></li>
             </ul>

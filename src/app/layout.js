@@ -4,7 +4,7 @@
 //
 
 import { Crimson_Text } from "next/font/google";
-import "./globals.css";
+import "./global.scss";
 
 const inter = Crimson_Text({
   subsets: ["latin"],
