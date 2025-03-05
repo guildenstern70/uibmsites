@@ -55,9 +55,13 @@ export default function Home()
                                appUrl={'https://digitalid.uibm-services-test.net/'}
                                apiUrl={'https://digitalid.uibm-services-test.net/api/alive'}/>
               </li>
-              <li><RestMonitor name={'Classification API'}
+              <li><RestMonitor name={'Classification API [DEV]'}
                                appUrl={'https://class.uibm-services-dev.net'}
                                apiUrl={'https://class.uibm-services-dev.net/api/alive'}/>
+              </li>
+              <li><RestMonitor name={'Classification API [TEST]'}
+                               appUrl={'https://class.uibm-services-test.net/'}
+                               apiUrl={'https://class.uibm-services-test.net/api/alive'}/>
               </li>
               <li><RestMonitor name={'Backend For Frontends API'}
                                appUrl={'https://bff.uibm-services-dev.net'}
