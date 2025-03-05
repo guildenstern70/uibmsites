@@ -1,5 +1,9 @@
 @use '../../node_modules/bulma/bulma.scss';
 
+:root {
+  --bulma-link-text: #1871a3;
+}
+
 $foreground: rgb(255, 255, 255);
 $background: rgb(0, 0, 0);
 
