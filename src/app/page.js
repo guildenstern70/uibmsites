@@ -3,20 +3,21 @@
 // Licensed under the MIT license. See LICENSE file in the project root for details.
 //
 
+import styles from "./page.module.css";
 import AppMonitor from "@/components/appmonitor";
 import RestMonitor from "@/components/restmonitor";
 
 export default function Home()
 {
   return (
-      <main>
 
-        <div>
+      <>
+        <div id={styles["uibmlogo"]} className={"columns is-centered"}>
           <img src="/uibmlogo.png" width={400} alt="UIBM Logo"/>
         </div>
 
-        <div>
-          <div>
+        <div className={"columns"}>
+            <div className={"column"}>
             <h2>Front End</h2>
             <ul>
               <li><RestMonitor name={'Deposito & RDS [DEV]'}
@@ -39,7 +40,7 @@ export default function Home()
               </li>
             </ul>
           </div>
-          <div>
+            <div className={"column"}>
             <h2>APIs</h2>
             <ul>
               <li><RestMonitor name={'Common API [DEV]'}
@@ -75,7 +76,7 @@ export default function Home()
               </li>
             </ul>
           </div>
-          <div>
+            <div className={"column"}>
             <h2>Wireframe</h2>
             <ul>
               <li><a
@@ -95,13 +96,16 @@ export default function Home()
               </li>
             </ul>
           </div>
-          <div>
+        </div>
+
+        <div className={"columns"}>
+          <div className={"column"}>
             <h2>Test</h2>
             <ul>
               <li><a href="https://github.com/guildenstern70/uibm-test/issues">Issue Management</a></li>
             </ul>
           </div>
-          <div>
+          <div className={"column"}>
             <h2>UIBM Team</h2>
             <ul>
               <li><a href="/credits">Credits</a></li>
@@ -109,6 +113,7 @@ export default function Home()
           </div>
         </div>
 
-      </main>
+      </>
+
   );
 }
