@@ -21,9 +21,11 @@ export default function RootLayout({ children }) {
   return (
       <html lang="en">
       <body className={inter.className}>
-        <main className={"container"} data-theme="dark">
-            {children}
-        </main>
+          <section className="section">
+              <div className={"container"} data-theme="dark">
+                  {children}
+              </div>
+          </section>
       </body>
       </html>
   );

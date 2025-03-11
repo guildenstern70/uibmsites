@@ -3,31 +3,34 @@
 // Licensed under the MIT license. See LICENSE file in the project root for details.
 //
 
-import styles from "./page.module.css";
-import AppMonitor from "@/components/appmonitor";
-import RestMonitor from "@/components/restmonitor";
+'use client';
 
-export default function Home()
+import '../global.scss';
+
+import Resources from "@/components/resources";
+import WebsitesTest from "@/components/websites-test";
+
+export default function Test()
 {
     return (
 
         <>
-            <div id={styles["uibmlogo"]} className={"columns is-centered"}>
+            <div id="uibmlogo" className={"columns is-centered"}>
                 <img src="/uibmlogo.png" width={400} alt="UIBM Logo"/>
             </div>
 
             <div className={"columns"}>
                 <div className={"column"}>
-                    <div className="tabs">
-                        <ul>
-                            <li><a href={"/"}>Dev</a></li>
-                            <li className="is-active"><a>Test</a></li>
-                        </ul>
-                    </div>
+                    <WebsitesTest />
                 </div>
                 <div className={"column"}>
+                    <Resources/>
                 </div>
             </div>
+
+            <div className="spacer"></div>
+
         </>
+
     );
 }
