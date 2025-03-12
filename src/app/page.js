@@ -6,22 +6,75 @@
 'use client';
 
 import './global.scss';
+import {useState} from 'react';
 
-import WebsitesDev from "@/components/websites-dev";
+import Image from 'next/image'
 import Resources from "@/components/resources";
+import WebsitesDev from "@/components/websites-dev";
+import WebsitesTest from "@/components/websites-test";
+
+const Environment = Object.freeze({
+    DEV: Symbol("dev"),
+    TEST: Symbol("test")
+});
 
 export default function Home()
 {
+
+    let [env, setEnv] = useState(Environment.DEV);
+
+    const changeEnv = () =>
+    {
+        if (env === Environment.DEV)
+        {
+            setEnv(Environment.TEST);
+        } else
+        {
+            setEnv(Environment.DEV);
+        }
+    }
+
+    const RenderEnv = () =>
+    {
+        if (env === Environment.DEV)
+        {
+            return (<div className="panel">
+                <p className="panel-tabs">
+                    <a onClick={changeEnv} className="is-active">Dev</a>
+                    <a onClick={changeEnv}>Test</a>
+                </p>
+                <div className="panel-block">
+                    <WebsitesDev/>
+                </div>
+            </div>)
+        }
+
+        return (<div className="panel">
+            <p className="panel-tabs">
+                <a onClick={changeEnv}>Dev</a>
+                <a onClick={changeEnv} className="is-active">Test</a>
+            </p>
+            <div className="panel-block">
+                <WebsitesTest/>
+            </div>
+        </div>)
+    }
+
     return (
 
         <>
             <div id="uibmlogo" className={"columns is-centered"}>
-                <img src="/uibmlogo.png" width={400} alt="UIBM Logo"/>
+                <Image
+                    src="/uibmlogo.webp"
+                    width={400}
+                    height={245}
+                    alt="UIBM Logo"
+                />
             </div>
 
             <div className={"columns"}>
                 <div className={"column"}>
-                    <WebsitesDev/>
+                    <RenderEnv/>
                 </div>
                 <div className={"column"}>
                     <Resources/>
