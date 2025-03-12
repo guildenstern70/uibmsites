@@ -44,11 +44,6 @@ export default function Resources() {
                             href: "https://github.com/guildenstern70/uibm-test/issue"
                         }]} />
                     <div className="mt-5" />
-                    <Links title={"UIBM Team"} urls={[
-                        {
-                            title: "Credits",
-                            href: "/credits"
-                        }]} />
                 </div>
             </div>
         </div>
