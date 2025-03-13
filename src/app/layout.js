@@ -12,7 +12,7 @@ const inter = Crimson_Text({
 });
 
 export const metadata = {
-  title: "UIBM CheatSheet",
+  title: "UIBM Portalino",
   description: "A collection of useful resources for UIBM developers.",
   robots: "noindex, nofollow",
 };

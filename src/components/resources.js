@@ -28,7 +28,7 @@ export default function Resources() {
         }
     ]
 
-    return <div className="panel">
+    return <div className="uibm panel">
         <p className="panel-tabs">
             <a className="is-active">Resources</a>
         </p>

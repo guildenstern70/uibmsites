@@ -38,7 +38,7 @@ export default function Home()
     {
         if (env === Environment.DEV)
         {
-            return (<div className="panel">
+            return (<div className="uibm panel">
                 <p className="panel-tabs">
                     <a onClick={changeEnv} className="is-active">Dev</a>
                     <a onClick={changeEnv}>Test</a>
@@ -49,7 +49,7 @@ export default function Home()
             </div>)
         }
 
-        return (<div className="panel">
+        return (<div className="uibm panel">
             <p className="panel-tabs">
                 <a onClick={changeEnv}>Dev</a>
                 <a onClick={changeEnv} className="is-active">Test</a>
