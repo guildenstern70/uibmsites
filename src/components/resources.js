@@ -41,7 +41,7 @@ export default function Resources() {
                     <Links title={"Test"} urls={[
                         {
                             title: "Issue Management",
-                            href: "https://github.com/guildenstern70/uibm-test/issue"
+                            href: "https://github.com/guildenstern70/uibm-test/issues"
                         }]} />
                     <div className="mt-5" />
                 </div>
