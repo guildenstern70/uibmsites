@@ -22,8 +22,8 @@ export default function WebsitesTest()
                                  apiUrl={'https://uibm-fe-test.net/api/alive'}/>
                 </li>
                 <li><RestMonitor name={'Gestione Proprietà Intellettuale (GEPI)'}
-                                 appUrl={'https://bo.uibm-fe-dev.net'}
-                                 apiUrl={'https://bo.uibm-fe-dev.net/api/alive'}/>
+                                 appUrl={'https://uibm-bo-test.net/'}
+                                 apiUrl={'https://uibm-bo-test.net/api/alive'}/>
                 </li>
                 <li><AppMonitor name={'Dashboard'}
                                 xurl={'https://axsaxs-search-7628008329.apps.bonsaisearch.net/app/home#'}/>
