@@ -15,7 +15,7 @@ export default function WebsitesDev()
 
     return <div className="control grid">
         <div className={"cell"}>
-            <h2 className="title">Front End [Dev]</h2>
+            <h2 className="title">Front End</h2>
             <ul>
                 <li><RestMonitor name={'Deposito & RDS'}
                                  appUrl={'https://uibm-fe-dev.net'}
@@ -34,7 +34,7 @@ export default function WebsitesDev()
             </ul>
         </div>
         <div className={"cell"}>
-            <h2 className="title">REST API [Dev]</h2>
+            <h2 className="title">REST API</h2>
             <ul>
                 <li><RestMonitor name={'Common API'}
                                  appUrl={'https://uibm-common-api-dev.net'}

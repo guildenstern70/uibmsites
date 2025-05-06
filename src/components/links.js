@@ -13,7 +13,7 @@ export default function Links({ title, urls }) {
     return <>
         <h2 className="title">{title}</h2>
         <ul>
-            {urls.map((url, i) => <li key={i}><a href={url.href} target="_blank" rel="noopener noreferrer">{url.title}</a></li>)}
+            {urls.map((url, i) => <li key={i}><a href={url.href} target="_blank" rel="noreferrer">{url.title}</a></li>)}
         </ul>
     </>;
 

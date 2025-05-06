@@ -15,7 +15,7 @@ export default function WebsitesTest()
 
     return <div className="control grid">
         <div className={"cell"}>
-            <h2 className="title">Front End [Test]</h2>
+            <h2 className="title">Front End</h2>
             <ul>
                 <li><RestMonitor name={'Deposito & RDS'}
                                  appUrl={'https://uibm-fe-test.net/'}
@@ -34,7 +34,7 @@ export default function WebsitesTest()
             </ul>
         </div>
         <div className={"cell"}>
-            <h2 className="title">REST API [Test]</h2>
+            <h2 className="title">REST API</h2>
             <ul>
                 <li><RestMonitor name={'Common API'}
                                  appUrl={'https://common.uibm-services-test.net/'}

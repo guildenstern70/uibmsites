@@ -26,7 +26,7 @@ export default function RestMonitor({ name, appUrl, apiUrl }) {
     });
 
     return <>
-        <a href={appUrl}>{name}</a>&nbsp;
+        <a href={appUrl} target="_blank" rel="noreferrer">{name}</a>&nbsp;
         <small className={aliveCss}>&bull;</small>
     </>;
 

@@ -65,9 +65,10 @@ export default function Home()
         <>
             <div id="uibmlogo" className={"columns is-centered"}>
                 <Image
-                    src="/uibmlogo.webp"
+                    src="/uibmlogo.jpg"
                     width={400}
-                    height={245}
+                    height={224}
+                    priority={true}
                     alt="UIBM Logo"
                 />
             </div>
