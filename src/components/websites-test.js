@@ -53,7 +53,7 @@ export default function WebsitesTest()
                                  apiUrl={'https://bff.uibm-services-dev.net/api/alive'}/>
                 </li>
                 <li><AppMonitor name={'Workflow Manager'}
-                                xurl={'http://ecs-uibm-workflow-load-b-bg-486537510.eu-central-1.elb.amazonaws.com'}/>
+                                xurl={'https://uibm-workflow-dev.net/'}/>
                 </li>
             </ul>
         </div>
