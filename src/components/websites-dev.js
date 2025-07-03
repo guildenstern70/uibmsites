@@ -26,7 +26,7 @@ export default function WebsitesDev()
                                  apiUrl={'https://bo.uibm-fe-dev.net/api/alive'}/>
                 </li>
                 <li><AppMonitor name={'Dashboard'}
-                                xurl={'https://axsaxs-search-7628008329.apps.bonsaisearch.net/app/home#'}/>
+                                xurl={'https://dash.uibm-fe-dev.net/'}/>
                 </li>
                 <li><AppMonitor name={'Workflow Designer'}
                                 xurl={'http://ecs-uibm-wf-designer-alb-1860146931.eu-central-1.elb.amazonaws.com'}/>
