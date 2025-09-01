@@ -49,8 +49,8 @@ export default function WebsitesTest()
                                  apiUrl={'https://class.uibm-services-test.net/api/alive'}/>
                 </li>
                 <li><RestMonitor name={'Backend For Frontends API'}
-                                 appUrl={'https://bff.uibm-services-dev.net'}
-                                 apiUrl={'https://bff.uibm-services-dev.net/api/alive'}/>
+                                 appUrl={'https://bff.uibm-services-test.net'}
+                                 apiUrl={'https://bff.uibm-services-test.net/api/alive'}/>
                 </li>
                 <li><AppMonitor name={'Workflow Manager'}
                                 xurl={'https://uibm-workflow-dev.net/'}/>
