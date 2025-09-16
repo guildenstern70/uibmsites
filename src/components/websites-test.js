@@ -21,7 +21,7 @@ export default function WebsitesTest()
                                  appUrl={'https://uibm-fe-test.net/'}
                                  apiUrl={'https://uibm-fe-test.net/api/alive'}/>
                 </li>
-                <li><RestMonitor name={'Gestione Proprietà Intellettuale (GEPI)'}
+                <li><RestMonitor name={'Gestione Proprietà Industriale (GEPI)'}
                                  appUrl={'https://uibm-bo-test.net/'}
                                  apiUrl={'https://uibm-bo-test.net/api/alive'}/>
                 </li>

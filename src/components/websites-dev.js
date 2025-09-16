@@ -21,7 +21,7 @@ export default function WebsitesDev()
                                  appUrl={'https://uibm-fe-dev.net'}
                                  apiUrl={'https://uibm-fe-dev.net/api/alive'}/>
                 </li>
-                <li><RestMonitor name={'Gestione Proprietà Intellettuale (GEPI)'}
+                <li><RestMonitor name={'Gestione Proprietà Industriale (GEPI)'}
                                  appUrl={'https://bo.uibm-fe-dev.net'}
                                  apiUrl={'https://bo.uibm-fe-dev.net/api/alive'}/>
                 </li>
