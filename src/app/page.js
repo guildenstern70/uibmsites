@@ -9,6 +9,7 @@ import './global.scss';
 import {useState} from 'react';
 
 import Image from 'next/image'
+import Link from 'next/link'
 import Resources from "@/components/resources";
 import WebsitesDev from "@/components/websites-dev";
 import WebsitesTest from "@/components/websites-test";
@@ -73,7 +74,7 @@ export default function Home()
                 />
             </div>
 
-            <div className={"columns"}>
+            <div id="uibmservices" className={"columns"}>
                 <div className={"column"}>
                     <RenderEnv/>
                 </div>
@@ -81,6 +82,10 @@ export default function Home()
                     <Resources/>
                 </div>
             </div>
+
+            {/*<div className="has-text-centered mt-2">*/}
+            {/*    <Link className="is-size-7 has-text-grey-light" href="/versions">Versions</Link>*/}
+            {/*</div>*/}
 
             <div className="spacer"></div>
 
