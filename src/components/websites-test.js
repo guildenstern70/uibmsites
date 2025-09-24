@@ -9,6 +9,7 @@ import '../app/global.scss';
 
 import RestMonitor from "@/components/restmonitor";
 import AppMonitor from "@/components/appmonitor";
+import {SERVICES} from "@/app/config";
 
 export default function WebsitesTest()
 {
@@ -37,20 +38,20 @@ export default function WebsitesTest()
             <h2 className="title">REST API</h2>
             <ul>
                 <li><RestMonitor name={'Common API'}
-                                 appUrl={'https://common.uibm-services-test.net/'}
-                                 apiUrl={'https://common.uibm-services-test.net/api/alive'}/>
+                                 appUrl={SERVICES["Common API"].test}
+                                 apiUrl={SERVICES["Common API"].test + '/api/alive'}/>
                 </li>
                 <li><RestMonitor name={'Digital Identity API'}
-                                 appUrl={'https://digitalid.uibm-services-test.net/'}
-                                 apiUrl={'https://digitalid.uibm-services-test.net/api/alive'}/>
+                                 appUrl={SERVICES["Digital Identity API"].test}
+                                 apiUrl={SERVICES["Digital Identity API"].test + '/api/alive'}/>
                 </li>
                 <li><RestMonitor name={'Classification API'}
-                                 appUrl={'https://class.uibm-services-test.net/'}
-                                 apiUrl={'https://class.uibm-services-test.net/api/alive'}/>
+                                 appUrl={SERVICES["Classification API"].test}
+                                 apiUrl={SERVICES["Classification API"].test + '/api/alive'}/>
                 </li>
                 <li><RestMonitor name={'Backend For Frontends API'}
-                                 appUrl={'https://bff.uibm-services-test.net'}
-                                 apiUrl={'https://bff.uibm-services-test.net/api/alive'}/>
+                                 appUrl={SERVICES["Backend For Frontends API"].test}
+                                 apiUrl={SERVICES["Backend For Frontends API"].test + '/api/alive'}/>
                 </li>
                 <li><AppMonitor name={'Workflow Manager'}
                                 xurl={'https://uibm-workflow-dev.net/'}/>

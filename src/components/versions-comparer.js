@@ -5,7 +5,11 @@
 
 'use client';
 
+import VersionsDescriptor from "@/components/versions-descriptor";
+import {SERVICES} from "@/app/config";
+
 export default function VersionsComparer() {
+
     return <div className="uibm panel">
         <div className="fixed-grid has-1-cols">
             <div className="grid">
@@ -23,31 +27,22 @@ export default function VersionsComparer() {
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
+                            <VersionsDescriptor
+                                name={'Common API'}
+                                devUrl={SERVICES["Common API"].dev}
+                                testUrl={SERVICES["Common API"].test} />
+                            <VersionsDescriptor
+                                name={'Digital Identity API'}
+                                devUrl={SERVICES["Digital Identity API"].dev}
+                                testUrl={SERVICES["Digital Identity API"].test} />
+                            <VersionsDescriptor
+                                name={'Classification API'}
+                                devUrl={SERVICES["Classification API"].dev}
+                                testUrl={SERVICES["Classification API"].test} />
+                            <VersionsDescriptor
+                                name={'Backend For Frontends API'}
+                                devUrl={SERVICES["Backend For Frontends API"].dev}
+                                testUrl={SERVICES["Backend For Frontends API"].test} />
                             </tbody>
                         </table>
                     </div>

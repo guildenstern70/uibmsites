@@ -83,9 +83,9 @@ export default function Home()
                 </div>
             </div>
 
-            {/*<div className="has-text-centered mt-2">*/}
-            {/*    <Link className="is-size-7 has-text-grey-light" href="/versions">Versions</Link>*/}
-            {/*</div>*/}
+            <div className="has-text-centered mt-2">
+                <Link className="is-size-7 has-text-grey-light" href="/versions">Versions</Link>
+            </div>
 
             <div className="spacer"></div>
 

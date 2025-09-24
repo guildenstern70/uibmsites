@@ -9,6 +9,7 @@ import '../app/global.scss';
 
 import RestMonitor from "@/components/restmonitor";
 import AppMonitor from "@/components/appmonitor";
+import {SERVICES} from "@/app/config";
 
 export default function WebsitesDev()
 {
@@ -37,20 +38,20 @@ export default function WebsitesDev()
             <h2 className="title">REST API</h2>
             <ul>
                 <li><RestMonitor name={'Common API'}
-                                 appUrl={'https://uibm-common-api-dev.net'}
-                                 apiUrl={'https://uibm-common-api-dev.net/api/alive'}/>
+                                 appUrl={SERVICES["Common API"].dev}
+                                 apiUrl={SERVICES["Common API"].dev + '/api/alive'}/>
                 </li>
                 <li><RestMonitor name={'Digital Identity API'}
-                                 appUrl={'https://uibm-digitalid-api-dev.net'}
-                                 apiUrl={'https://uibm-digitalid-api-dev.net/api/alive'}/>
+                                 appUrl={SERVICES["Digital Identity API"].dev}
+                                 apiUrl={SERVICES["Digital Identity API"].dev + '/api/alive'}/>
                 </li>
                 <li><RestMonitor name={'Classification API'}
-                                 appUrl={'https://class.uibm-services-dev.net'}
-                                 apiUrl={'https://class.uibm-services-dev.net/api/alive'}/>
+                                 appUrl={SERVICES["Classification API"].dev}
+                                 apiUrl={SERVICES["Classification API"].dev + '/api/alive'}/>
                 </li>
                 <li><RestMonitor name={'Backend For Frontends API'}
-                                 appUrl={'https://bff.uibm-services-dev.net'}
-                                 apiUrl={'https://bff.uibm-services-dev.net/api/alive'}/>
+                                 appUrl={SERVICES["Backend For Frontends API"].dev}
+                                 apiUrl={SERVICES["Backend For Frontends API"].dev + '/api/alive'}/>
                 </li>
                 <li><AppMonitor name={'Workflow Manager'}
                                 xurl={'https://uibm-workflow-dev.net/'}/>
