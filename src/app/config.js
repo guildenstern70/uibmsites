@@ -6,6 +6,14 @@
 'use client';
 
 export const SERVICES = {
+    'Deposito': {
+        'dev': 'https://uibm-fe-dev.net',
+        'test': 'https://uibm-fe-test.net'
+    },
+    'GEPI': {
+        'dev': 'https://bo.uibm-fe-dev.net',
+        'test': 'https://uibm-bo-test.net'
+    },
     'Common API': {
         'dev': 'https://uibm-common-api-dev.net',
         'test': 'https://common.uibm-services-test.net'

@@ -11,11 +11,11 @@ import Link from "next/link";
 export default function VersionsPage() {
     return (
         <>
-            <div id="uibmlogo" className={"columns is-centered"}>
+            <div className={"columns is-centered"}>
                 <Image
                     src="/uibmlogo.jpg"
-                    width={400}
-                    height={224}
+                    width={300}
+                    height={180}
                     priority={true}
                     alt="UIBM Logo"
                 />
@@ -33,11 +33,15 @@ export default function VersionsPage() {
                 </div>
             </div>
 
+            <div className="spacer"></div>
+
             <div className="has-text-centered mt-2">
                 <Link className="is-size-7 has-text-grey-light" href="/">Back Home</Link>
             </div>
 
             <div className="spacer"></div>
+
+
         </>
     );
 }

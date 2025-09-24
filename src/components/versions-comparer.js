@@ -27,22 +27,14 @@ export default function VersionsComparer() {
                             </tr>
                             </thead>
                             <tbody>
-                            <VersionsDescriptor
-                                name={'Common API'}
-                                devUrl={SERVICES["Common API"].dev}
-                                testUrl={SERVICES["Common API"].test} />
-                            <VersionsDescriptor
-                                name={'Digital Identity API'}
-                                devUrl={SERVICES["Digital Identity API"].dev}
-                                testUrl={SERVICES["Digital Identity API"].test} />
-                            <VersionsDescriptor
-                                name={'Classification API'}
-                                devUrl={SERVICES["Classification API"].dev}
-                                testUrl={SERVICES["Classification API"].test} />
-                            <VersionsDescriptor
-                                name={'Backend For Frontends API'}
-                                devUrl={SERVICES["Backend For Frontends API"].dev}
-                                testUrl={SERVICES["Backend For Frontends API"].test} />
+                            {Object.keys(SERVICES).map((serviceName) => (
+                                <VersionsDescriptor
+                                    key={serviceName}
+                                    name={serviceName}
+                                    devUrl={SERVICES[serviceName].dev}
+                                    testUrl={SERVICES[serviceName].test}
+                                />
+                            ))}
                             </tbody>
                         </table>
                     </div>
